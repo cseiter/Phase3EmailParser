@@ -61,3 +61,4 @@ into the following topics:
 - [Ruby Array class][array docs]
 
 [array docs]: https://ruby-doc.org/core-2.7.3/Array.html
+# Phase3EmailParser
