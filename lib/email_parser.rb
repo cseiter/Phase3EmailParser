@@ -7,15 +7,11 @@
 #https://www.rubyguides.com/2019/08/ruby-uniq-method/
 
 class EmailAddressParser
-
-    attr_accessor :addresses
-
-    def initialize(addresses)
-        @addresses=addresses
+    attr_accessor :a
+    def initialize(a)
+        @a=a
     end
-
     def parse
-        @addresses.split(/, | /).uniq
+        @a.split(/, | /).uniq
     end
-
 end
