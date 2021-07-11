@@ -3,6 +3,9 @@
 # unique email addresses. The delimiters to support are commas (',')
 # or whitespace (' ').
 
+#uniq method
+#https://www.rubyguides.com/2019/08/ruby-uniq-method/
+
 class EmailAddressParser
 
     attr_accessor :addresses
@@ -12,7 +15,7 @@ class EmailAddressParser
     end
 
     def parse
-        @addresses.split(/, | /)
+        @addresses.split(/, | /).uniq
     end
 
 end
